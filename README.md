@@ -1,10 +1,5 @@
 # TEAM-3-2025-1
 Prueba en github 2.0
-angela que es esb
-andres ventajas
-stiven ejemplo
-camilo microservicios
-
 ¿Que es Arquitectura SOA?
 
 La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutilización de componentes de software a través de interfaces de servicio. Estas interfaces utilizan estándares comunes y facilitan la integración en nuevas aplicaciones, evitando que los desarrolladores deban recrear funcionalidades existentes. Cada servicio ofrece una función de negocio completa y permite un acoplamiento dinámico, lo que reduce las dependencias entre aplicaciones.
@@ -12,6 +7,11 @@ La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutil
 Las interfaces de servicio son contratos entre el proveedor y el consumidor, y pueden implementarse en diversos lenguajes de programación. Se definen comúnmente con WSDL y se exponen mediante protocolos estándar como SOAP o RESTful HTTP. El gobierno del servicio gestiona el ciclo de vida del desarrollo y publica los servicios en un registro para su reutilización.
 
 SOA representa un avance significativo en la integración de aplicaciones, facilitando la conexión entre sistemas sin la complejidad de integraciones punto a punto previas. Aunque SOA y la arquitectura de microservicios comparten términos similares, operan en contextos distintos.
+
+angela que es esb
+andres ventajas
+stiven ejemplo
+camilo microservicios
 
 # ventajas
 
@@ -26,3 +26,13 @@ SOA representa un avance significativo en la integración de aplicaciones, facil
 4. **Escalabilidad y flexibilidad**: Al estar basado en servicios independientes y modulares, SOA facilita la escalabilidad de los sistemas a medida que crecen las necesidades del negocio. Los servicios pueden ser fácilmente modificados o ampliados sin afectar al sistema en su conjunto, proporcionando una gran flexibilidad para adaptarse a nuevos requisitos o cambios en el entorno empresarial.
 
 5. **Optimización de los recursos y costos**: SOA permite una utilización más eficiente de los recursos informáticos, ya que los servicios pueden ser compartidos entre diversas aplicaciones. Esto reduce la duplicación de esfuerzos y costos asociados con el desarrollo de nuevas aplicaciones, y permite la reutilización de servicios existentes, lo que resulta en una mayor eficiencia operativa.
+
+
+**Ejemplos de SOA**
+En 2010, las implementaciones de SOA estaban en plena expansión entre las empresas líderes en prácticamente todos los sectores. Por ejemplo:
+
+Delaware Electric recurrió a SOA para integrar sistemas que antes no se comunicaban entre sí, lo que incrementó la eficiencia de desarrollo y ayudó a la organización a mantenerse solvente durante cinco años de congelamiento de las tarifas eléctricas impuesto por el estado.
+
+Cisco adoptó SOA para asegurarse de que su experiencia en la realización de pedidos de productos fuera coherente en todos los productos y canales exponiendo los procesos de pedidos como servicios que las divisiones, las adquisiciones y los socios comerciales de Cisco pudieran incorporar a sus sitios web.
+
+Independence Blue Cross (IBC), de Filadelfia, implementó una SOA para asegurarse de que los diferentes integrantes que se ocupan de los datos de los pacientes (los agentes del servicio al cliente de IBC, las consultas de los médicos y los usuarios del sitio web de IBC) estuvieran trabajando con el mismo origen de datos (una "única fuente de verdad").
