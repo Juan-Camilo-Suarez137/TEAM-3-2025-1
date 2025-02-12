@@ -1,7 +1,5 @@
 # TEAM-3-2025-1
 Prueba en github 2.0
-<<<<<<< HEAD
-=======
 ¿Que es Arquitectura SOA? Javier
 
 La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutilización de componentes de software a través de interfaces de servicio. Estas interfaces utilizan estándares comunes y facilitan la integración en nuevas aplicaciones, evitando que los desarrolladores deban recrear funcionalidades existentes. Cada servicio ofrece una función de negocio completa y permite un acoplamiento dinámico, lo que reduce las dependencias entre aplicaciones.
@@ -9,9 +7,6 @@ La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutil
 Las interfaces de servicio son contratos entre el proveedor y el consumidor, y pueden implementarse en diversos lenguajes de programación. Se definen comúnmente con WSDL y se exponen mediante protocolos estándar como SOAP o RESTful HTTP. El gobierno del servicio gestiona el ciclo de vida del desarrollo y publica los servicios en un registro para su reutilización.
 
 SOA representa un avance significativo en la integración de aplicaciones, facilitando la conexión entre sistemas sin la complejidad de integraciones punto a punto previas. Aunque SOA y la arquitectura de microservicios comparten términos similares, operan en contextos distintos.
-
-
->>>>>>> 94dda39f06e1caa44037e121a475178c2a29ef9a
 
 Angela ¿Que es ESB?
 
@@ -25,10 +20,21 @@ Orquestación: Permite la coordinación de múltiples servicios en un flujo de t
 Transformación de Datos: Puede transformar datos entre diferentes formatos y protocolos.
 Gestión de Mensajes: Maneja la entrega y enrutamiento de mensajes entre servicios.
 
+¿Que es Arquitectura SOA?
 
+La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutilización de componentes de software a través de interfaces de servicio. Estas interfaces utilizan estándares comunes y facilitan la integración en nuevas aplicaciones, evitando que los desarrolladores deban recrear funcionalidades existentes. Cada servicio ofrece una función de negocio completa y permite un acoplamiento dinámico, lo que reduce las dependencias entre aplicaciones.
 
-# ventajas 
-Guevara
+Las interfaces de servicio son contratos entre el proveedor y el consumidor, y pueden implementarse en diversos lenguajes de programación. Se definen comúnmente con WSDL y se exponen mediante protocolos estándar como SOAP o RESTful HTTP. El gobierno del servicio gestiona el ciclo de vida del desarrollo y publica los servicios en un registro para su reutilización.
+
+SOA representa un avance significativo en la integración de aplicaciones, facilitando la conexión entre sistemas sin la complejidad de integraciones punto a punto previas. Aunque SOA y la arquitectura de microservicios comparten términos similares, operan en contextos distintos.
+
+angela que es esb
+andres ventajas
+stiven ejemplo
+camilo microservicios
+
+# ventajas
+
     Las ventajas de la Arquitectura Orientada a Servicios (SOA) según IBM son:
 
 1. **Mayor agilidad empresarial y una comercialización más rápida**: SOA permite a las organizaciones componer y reconfigurar aplicaciones rápidamente mediante servicios reutilizables. Esta capacidad de ensamblar servicios ya existentes para crear nuevas soluciones reduce el tiempo necesario para desarrollar nuevas aplicaciones, lo que acelera la comercialización de productos y servicios.
@@ -42,7 +48,7 @@ Guevara
 5. **Optimización de los recursos y costos**: SOA permite una utilización más eficiente de los recursos informáticos, ya que los servicios pueden ser compartidos entre diversas aplicaciones. Esto reduce la duplicación de esfuerzos y costos asociados con el desarrollo de nuevas aplicaciones, y permite la reutilización de servicios existentes, lo que resulta en una mayor eficiencia operativa.
 
 
-Steven **Ejemplos de SOA**
+**Ejemplos de SOA**
 En 2010, las implementaciones de SOA estaban en plena expansión entre las empresas líderes en prácticamente todos los sectores. Por ejemplo:
 
 Delaware Electric recurrió a SOA para integrar sistemas que antes no se comunicaban entre sí, lo que incrementó la eficiencia de desarrollo y ayudó a la organización a mantenerse solvente durante cinco años de congelamiento de las tarifas eléctricas impuesto por el estado.
@@ -50,3 +56,12 @@ Delaware Electric recurrió a SOA para integrar sistemas que antes no se comunic
 Cisco adoptó SOA para asegurarse de que su experiencia en la realización de pedidos de productos fuera coherente en todos los productos y canales exponiendo los procesos de pedidos como servicios que las divisiones, las adquisiciones y los socios comerciales de Cisco pudieran incorporar a sus sitios web.
 
 Independence Blue Cross (IBC), de Filadelfia, implementó una SOA para asegurarse de que los diferentes integrantes que se ocupan de los datos de los pacientes (los agentes del servicio al cliente de IBC, las consultas de los médicos y los usuarios del sitio web de IBC) estuvieran trabajando con el mismo origen de datos (una "única fuente de verdad").
+
+# microservicios 
+se centra en el ambito de la aplicacion individual. Su proposito principal es descomponer los elementos internos de una sola aplicacion en piezas pequenas que se pueden cambiar, escalar y administrar de forma independiente. Es importante notar que los microservicios no definen como se comunican las aplicaciones entre si; para esto, se recurre al ambito empresarial de las interfaces de servicio proporcionadas por SOA.
+
+Diferecia
+
+1. Acoplamiento de componentes: SOA es un estilo de arquitectura de integracion que funciona a nivel empresarial, permitiendo que las aplicaciones se conecten mediante interfaces sin conexion directa. En cambio, los microservicios se enfocan en dividir una sola aplicacion en componentes mas pequenos y totalmente independientes.
+
+2. Ambito de aplicacion: SOA es un concepto que abarca toda la empresa y se centra en como las diferentes aplicaciones pueden comunicarse y reutilizar funcionalidades entre si. Por otro lado, los microservicios son un concepto de ambito mas limitado que se enfoca en la arquitectura interna de una aplicacion individual y como sus componentes pueden ser gestionados de forma independiente
