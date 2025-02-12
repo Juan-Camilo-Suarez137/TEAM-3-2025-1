@@ -1,8 +1,0 @@
-Ejemplos de SOA
-En 2010, las implementaciones de SOA estaban en plena expansión entre las empresas líderes en prácticamente todos los sectores. Por ejemplo:
-
-Delaware Electric recurrió a SOA para integrar sistemas que antes no se comunicaban entre sí, lo que incrementó la eficiencia de desarrollo y ayudó a la organización a mantenerse solvente durante cinco años de congelamiento de las tarifas eléctricas impuesto por el estado.
-
-Cisco adoptó SOA para asegurarse de que su experiencia en la realización de pedidos de productos fuera coherente en todos los productos y canales exponiendo los procesos de pedidos como servicios que las divisiones, las adquisiciones y los socios comerciales de Cisco pudieran incorporar a sus sitios web.
-
-Independence Blue Cross (IBC), de Filadelfia, implementó una SOA para asegurarse de que los diferentes integrantes que se ocupan de los datos de los pacientes (los agentes del servicio al cliente de IBC, las consultas de los médicos y los usuarios del sitio web de IBC) estuvieran trabajando con el mismo origen de datos (una "única fuente de verdad").
