@@ -1,6 +1,13 @@
 # TEAM-3-2025-1
 Prueba en github 2.0
-javier que es
+¿Que es Arquitectura SOA?
+
+La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutilización de componentes de software a través de interfaces de servicio. Estas interfaces utilizan estándares comunes y facilitan la integración en nuevas aplicaciones, evitando que los desarrolladores deban recrear funcionalidades existentes. Cada servicio ofrece una función de negocio completa y permite un acoplamiento dinámico, lo que reduce las dependencias entre aplicaciones.
+
+Las interfaces de servicio son contratos entre el proveedor y el consumidor, y pueden implementarse en diversos lenguajes de programación. Se definen comúnmente con WSDL y se exponen mediante protocolos estándar como SOAP o RESTful HTTP. El gobierno del servicio gestiona el ciclo de vida del desarrollo y publica los servicios en un registro para su reutilización.
+
+SOA representa un avance significativo en la integración de aplicaciones, facilitando la conexión entre sistemas sin la complejidad de integraciones punto a punto previas. Aunque SOA y la arquitectura de microservicios comparten términos similares, operan en contextos distintos.
+
 angela que es esb
 andres ventajas
 stiven ejemplo
