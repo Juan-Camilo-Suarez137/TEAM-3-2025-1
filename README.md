@@ -2,7 +2,7 @@
 Prueba en github 2.0
 <<<<<<< HEAD
 =======
-¿Que es Arquitectura SOA?
+¿Que es Arquitectura SOA? Javier
 
 La  Arquitectura Orientada a Servicios (SOA) es un enfoque que permite la reutilización de componentes de software a través de interfaces de servicio. Estas interfaces utilizan estándares comunes y facilitan la integración en nuevas aplicaciones, evitando que los desarrolladores deban recrear funcionalidades existentes. Cada servicio ofrece una función de negocio completa y permite un acoplamiento dinámico, lo que reduce las dependencias entre aplicaciones.
 
@@ -14,6 +14,7 @@ SOA representa un avance significativo en la integración de aplicaciones, facil
 >>>>>>> 94dda39f06e1caa44037e121a475178c2a29ef9a
 
 Angela ¿Que es ESB?
+
 Un ESB es un componente esencial de la SOA, o arquitectura orientada a servicios, una arquitectura de software que surgió a finales de la década de 1990. La SOA define una forma de hacer que los componentes de software sean reutilizables a través de interfaces de servicio. Estos servicios suelen utilizar interfaces estándar (es decir, servicios web) de tal manera que se pueden incorporar rápidamente en nuevas aplicaciones sin tener que duplicar la funcionalidad realizada por el servicio en nuevas aplicaciones.
 
 Cada servicio de una SOA incorpora el código y los datos necesarios para ejecutar una función empresarial completa y discreta (p. ej. comprobar el crédito de un cliente, calcular el pago mensual de un préstamo o tramitar una solicitud de hipoteca). Las interfaces de servicio proporcionan acoplamiento dinámico, lo que significa que se pueden llamar con poco o ningún conocimiento de cómo se implementa el servicio por debajo, reduciendo las dependencias entre las aplicaciones.
@@ -24,12 +25,10 @@ Orquestación: Permite la coordinación de múltiples servicios en un flujo de t
 Transformación de Datos: Puede transformar datos entre diferentes formatos y protocolos.
 Gestión de Mensajes: Maneja la entrega y enrutamiento de mensajes entre servicios.
 
-andres ventajas
-stiven ejemplo
-camilo microservicios
 
-# ventajas
 
+# ventajas 
+Guevara
     Las ventajas de la Arquitectura Orientada a Servicios (SOA) según IBM son:
 
 1. **Mayor agilidad empresarial y una comercialización más rápida**: SOA permite a las organizaciones componer y reconfigurar aplicaciones rápidamente mediante servicios reutilizables. Esta capacidad de ensamblar servicios ya existentes para crear nuevas soluciones reduce el tiempo necesario para desarrollar nuevas aplicaciones, lo que acelera la comercialización de productos y servicios.
@@ -43,7 +42,7 @@ camilo microservicios
 5. **Optimización de los recursos y costos**: SOA permite una utilización más eficiente de los recursos informáticos, ya que los servicios pueden ser compartidos entre diversas aplicaciones. Esto reduce la duplicación de esfuerzos y costos asociados con el desarrollo de nuevas aplicaciones, y permite la reutilización de servicios existentes, lo que resulta en una mayor eficiencia operativa.
 
 
-**Ejemplos de SOA**
+Steven **Ejemplos de SOA**
 En 2010, las implementaciones de SOA estaban en plena expansión entre las empresas líderes en prácticamente todos los sectores. Por ejemplo:
 
 Delaware Electric recurrió a SOA para integrar sistemas que antes no se comunicaban entre sí, lo que incrementó la eficiencia de desarrollo y ayudó a la organización a mantenerse solvente durante cinco años de congelamiento de las tarifas eléctricas impuesto por el estado.
